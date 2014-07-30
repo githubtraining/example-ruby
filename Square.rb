@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 class Square
-  attr_accessor :side
+  attr_reader :side
   def initialize(side)
     @side = side
   end
